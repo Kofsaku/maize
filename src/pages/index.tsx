@@ -10,12 +10,12 @@ import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
 
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
-import { Paneru } from '../components/Paneru'
+import { ArticleComponent, Paneru } from '../components/ArtcleComponent'
 
 const Index = () => (
   <Container height="100vh">
     <Hero />
-    <Paneru/>
+    <ArticleComponent/>
     
   </Container>
 )
